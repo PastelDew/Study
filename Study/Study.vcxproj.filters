@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3312777d-8139-4b95-9ae0-0a714a0a4630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\TestBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TestIncludes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
